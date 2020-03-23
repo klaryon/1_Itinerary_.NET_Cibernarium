@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASE 3 - Bucles</title>
+</head>
+<body>
+    <h1>FASE 3 - Bucles</h1>
+
+    <p>Check which leap years are between 1948 and Clarissa's birth year 1986! <br>
+        Is my year of birth a leap year? </p>
+
+    <input type="button" onClick="bucles()" Value="Check info"/>
+
+    <script>
+
+        function bucles() {
+
+            var yearBirth = 1986;
+            var leapYear = 1948;
+            var mod400 = 400;
+            var mod4 = 4;
+            var mod100 = 100;
+            var checkLeapYear = false;
+            var resultLeap = "My year of birth IS a leap year!";
+            var resultNotLeap = "My year of birth is NOT a leap year :(";
+
+            for (var year = leapYear; year <= yearBirth; year++)
+            {
+                if ((year % mod400 == 0) || ((year % mod4 == 0) && (year % mod100 != 0))) 
+                { 
+                    document.write(year + "<br>");
+                    if (yearBirth == year) 
+                    {
+                    checkLeapYear = true; 
+                    }
+                }
+            }
+
+            if (checkLeapYear == true)
+            {
+                document.write(resultLeap);
+            } else
+            {
+                document.write(resultNotLeap);
+            }
+        }
+
+    </script>
+
+</body>
+</html>

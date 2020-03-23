@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "200309_PHASE_2_loops/1.0.0": {
+        "runtime": {
+          "200309_PHASE_2_loops.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "200309_PHASE_2_loops/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

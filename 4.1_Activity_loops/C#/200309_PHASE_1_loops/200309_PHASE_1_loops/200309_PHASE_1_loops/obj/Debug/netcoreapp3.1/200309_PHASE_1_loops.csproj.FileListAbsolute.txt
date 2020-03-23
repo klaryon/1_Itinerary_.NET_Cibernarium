@@ -1,0 +1,11 @@
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\bin\Debug\netcoreapp3.1\200309_PHASE_1_loops.exe
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\bin\Debug\netcoreapp3.1\200309_PHASE_1_loops.deps.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\bin\Debug\netcoreapp3.1\200309_PHASE_1_loops.runtimeconfig.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\bin\Debug\netcoreapp3.1\200309_PHASE_1_loops.runtimeconfig.dev.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\bin\Debug\netcoreapp3.1\200309_PHASE_1_loops.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\bin\Debug\netcoreapp3.1\200309_PHASE_1_loops.pdb
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\obj\Debug\netcoreapp3.1\200309_PHASE_1_loops.csprojAssemblyReference.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\obj\Debug\netcoreapp3.1\200309_PHASE_1_loops.AssemblyInfoInputs.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\obj\Debug\netcoreapp3.1\200309_PHASE_1_loops.AssemblyInfo.cs
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\obj\Debug\netcoreapp3.1\200309_PHASE_1_loops.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200309_Extra_variables_bucles\C#\200309_PHASE_1_loops\200309_PHASE_1_loops\200309_PHASE_1_loops\obj\Debug\netcoreapp3.1\200309_PHASE_1_loops.pdb

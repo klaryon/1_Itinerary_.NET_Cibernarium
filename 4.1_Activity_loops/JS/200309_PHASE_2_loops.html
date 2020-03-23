@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASE 2 - Bucles</title>
+</head>
+<body>
+    <h1>FASE 2 - Bucles</h1>
+
+    <p>Check how many leap years there are between 1948 and Clarissa's birth year 1986!</p>
+
+    <input type="button" onClick="bucles()" Value="Check info"/>
+
+    <script>
+
+        function bucles() {
+
+            var yearBirth = 1986;
+            var leapYear = 1948;
+            var eachLeapYear = 4;
+            var totalLeapYear = (yearBirth - leapYear) / eachLeapYear;
+
+            document.write("Total amount of leap years between 1948 and my birth year: " + totalLeapYear + " years");
+        }
+
+    </script>
+
+</body>
+</html>
