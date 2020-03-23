@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 1 City Names</title>
+</head>
+<body>
+    
+    <h1>PHASE 1 - City Names</h1>
+
+    <input type="button" onClick="city()" Value="Show me some cities!"/>
+    <p id="demo1"> </p>
+    <p id="demo2"> </p>
+    <p id="demo3"> </p>
+    <p id="demo4"> </p>
+    <p id="demo5"> </p>
+    <p id="demo6"> </p>
+
+    <script>
+        
+        function city() 
+        { 
+            let city1Bcn = " ";
+            let city2Mad = " ";
+            let city3Val = " ";
+            let city4Mal = " ";
+            let city5Cad = " ";
+            let city6Sant = " ";
+
+            city1Bcn = prompt("Enter city name: ");
+            city2Mad = prompt("Enter city name: ");
+            city3Val = prompt("Enter city name: ");
+            city4Mal = prompt("Enter city name: ");
+            city5Cad = prompt("Enter city name: ");
+            city6Sant = prompt("Enter city name: ");
+
+            document.getElementById("demo1").innerHTML = "Ciudad 1: " + city1Bcn;
+            document.getElementById("demo2").innerHTML = "Ciudad 2: " + city2Mad;
+            document.getElementById("demo3").innerHTML = "Ciudad 3: " + city3Val;
+            document.getElementById("demo4").innerHTML = "Ciudad 4: " + city4Mal;
+            document.getElementById("demo5").innerHTML = "Ciudad 5: " + city5Cad;
+            document.getElementById("demo6").innerHTML = "Ciudad 6: " + city6Sant;
+        }
+
+    </script>
+</body>
+</html>
+
+<!--
+ - Crea seis strings vacios.
+ - Pide por consola que se introduzcan los nombres.
+ - Introduce los siguientes nombres de ciudades (Barcelona, Madrid, Valencia, Malaga, Cadiz, Santander) por teclado.
+ - Muestra por consola el nombre de las 6 ciudades. 
+ -->

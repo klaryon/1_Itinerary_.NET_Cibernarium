@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 2 City Names</title>
+</head>
+<body>
+
+    <h1>PHASE 2 - City Names in alphabetical order</h1>
+
+    <input type="button" onClick="city()" Value="Show me some cities!"/>
+    <p id="demo"> </p>
+
+    <script>
+        
+        function city() 
+        { 
+            let city1Bcn = " ";
+            let city2Mad = " ";
+            let city3Val = " ";
+            let city4Mal = " ";
+            let city5Cad = " ";
+            let city6Sant = " ";
+            let contador = 0;
+
+            let ArrayCities = new Array();
+
+            city1Bcn = prompt("Enter city name: ");
+            city2Mad = prompt("Enter city name: ");
+            city3Val = prompt("Enter city name: ");
+            city4Mal = prompt("Enter city name: ");
+            city5Cad = prompt("Enter city name: ");
+            city6Sant = prompt("Enter city name: ");
+
+            ArrayCities[0] = city1Bcn;
+            ArrayCities[1] = city2Mad;
+            ArrayCities[2] = city3Val;
+            ArrayCities[3] = city4Mal;
+            ArrayCities[4] = city5Cad;
+            ArrayCities[5] = city6Sant;
+
+            ArrayCities.sort();
+
+            for (let i = 0 ; i < ArrayCities.length; i++) 
+            {
+                contador++;
+                document.getElementById("demo").innerHTML += "Ciudad " + contador + " = " + ArrayCities[i] + "<br>";
+            }
+        }
+    </script>
+    
+</body>
+</html>
+
+
+<!--
+ - Una vez tenemos los nombres guardados en variables tenemos que pasar la información a un array (arrayCiudades).
+ - Mostrar por consola el nombre de las ciudades ordenadas alfabéticamente.
+ -->

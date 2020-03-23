@@ -1,0 +1,11 @@
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\bin\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.exe
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\bin\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.deps.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\bin\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.runtimeconfig.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\bin\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.runtimeconfig.dev.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\bin\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\bin\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.pdb
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\obj\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.csprojAssemblyReference.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\obj\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.AssemblyInfoInputs.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\obj\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.AssemblyInfo.cs
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\obj\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200321_Activity_City_Names\C#\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\200321_PHASE_3_City_Names\obj\Debug\netcoreapp3.1\200321_PHASE_3_City_Names.pdb

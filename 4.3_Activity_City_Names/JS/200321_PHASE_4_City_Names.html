@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 4 City Names</title>
+</head>
+<body>
+
+    <h1>PHASE 4 - City Names Reversed</h1>
+
+    <input type="button" onClick="city()" Value="Show me some cities!"/>
+    <p id="demo1"> </p>
+    <p id="demo2"> </p>
+    <p id="demo3"> </p>
+    <p id="demo4"> </p>
+    <p id="demo5"> </p>
+    <p id="demo6"> </p>
+
+    <script>
+        
+        function city() 
+        { 
+            let city1Bcn = prompt("Enter city name: ");
+            let city2Mad = prompt("Enter city name: ");
+            let city3Val = prompt("Enter city name: ");
+            let city4Mal = prompt("Enter city name: ");
+            let city5Cad = prompt("Enter city name: ");
+            let city6Sant = prompt("Enter city name: ");
+
+            let arrayBcn = new Array();
+            let arrayMad = new Array();
+            let arrayVal = new Array();
+            let arrayMal = new Array();
+            let arrayCad = new Array();
+            let arraySant = new Array();
+
+            for (let i = 0; i < city1Bcn.length; i++)
+            {
+                arrayBcn[i] = city1Bcn.charAt(i);
+            }
+
+            arrayBcn.reverse();
+
+            for (let i = 0; i < arrayBcn.length; i++)
+            {
+                document.getElementById("demo1").innerHTML += arrayBcn[i];
+            }
+
+            for (let i = 0; i < city2Mad.length; i++)
+            {
+                arrayMad[i] = city2Mad.charAt(i);
+            }
+
+            arrayMad.reverse();
+
+            for (let i = 0; i < arrayMad.length; i++)
+            {
+                document.getElementById("demo2").innerHTML += arrayMad[i];
+            }
+
+            for (let i = 0; i < city3Val.length; i++)
+            {
+                arrayVal[i] = city3Val.charAt(i);
+            }
+
+            arrayVal.reverse();
+
+            for (let i = 0; i < arrayVal.length; i++)
+            {
+                document.getElementById("demo3").innerHTML += arrayVal[i];
+            }
+
+            for (let i = 0; i < city4Mal.length; i++)
+            {
+                arrayMal[i] = city4Mal.charAt(i);
+            }
+
+            arrayMal.reverse();
+
+            for (let i = 0; i < arrayMal.length; i++)
+            {
+                document.getElementById("demo4").innerHTML += arrayMal[i];
+            }
+
+            for (let i = 0; i < city5Cad.length; i++)
+            {
+                arrayCad[i] = city5Cad.charAt(i);
+            }
+
+            arrayCad.reverse();
+
+            for (let i = 0; i < arrayCad.length; i++)
+            {
+                document.getElementById("demo5").innerHTML += arrayCad[i];
+            }
+
+            for (let i = 0; i < city6Sant.length; i++)
+            {
+                arraySant[i] = city6Sant.charAt(i);
+            }
+
+            arraySant.reverse();
+
+            for (let i = 0; i < arraySant.length; i++)
+            {
+                document.getElementById("demo6").innerHTML += arraySant[i];
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
