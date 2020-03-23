@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 2 Repeated Letters</title>
+</head>
+<body>
+
+    <h1>PHASE 2 - Repeated Letters - vowel or consonant</h1>
+
+    <input type="button" onClick="repeat()" Value="Check Clarissa's name letters"/>
+    <p id="demo"> </p>
+
+    <script>
+        
+function repeat() 
+        { 
+            let nameLetter = ['c', 'l', 'a', 'r', 'i', 's', 's', 'a'];
+            var nameList = new Array();
+
+                for (let i = 0; i < nameLetter.length; i++)
+                {
+                    nameList.push(nameLetter[i]);
+                }
+
+                for (i of nameList)
+                {
+                    switch(i)
+                    {
+                        case "a":
+                        case 'e':
+                        case 'i':
+                        case 'o':
+                        case 'u':
+                            document.getElementById("demo").innerHTML += "Letter " + i + " is a Vowel <br>";
+                            break;
+
+                        case '0':
+                        case '1':
+                        case '2':
+                        case '3':
+                        case '4':
+                        case '5':
+                        case '6':
+                        case '7':
+                        case '8':
+                        case '9':
+                            document.getElementById("demo").innerHTML += "Letter " + i + " is a number, and people's name don't have numbers! <br>";
+                            break;
+
+                        default:
+                            document.getElementById("demo").innerHTML += "Letter " + i + " is a Consonant <br>";
+                            break;
+                    }
+                }
+        }
+
+    </script>
+</body>
+</html>
+
+<!--
+ - Cambia el array por una (List).
+ - En el bucle, si la letra es una vocal imprime por consola: 'VOCAL'. Sino, imprime 'CONSONANTE'. 
+ - Si encuentras un número, muestra por consola: 'Los nombres de personas no contienen números!.'. 
+-->

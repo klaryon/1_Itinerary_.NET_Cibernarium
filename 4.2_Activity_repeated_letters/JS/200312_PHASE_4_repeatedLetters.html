@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 4 Repeated Letters</title>
+</head>
+<body>
+
+    <h1>PHASE 4 - Repeated Letters</h1>
+
+    <input type="button" onClick="repeat()" Value="Check Clarissa's name letters"/>
+    <p id="demo"> </p>
+
+    <script>
+        
+function repeat() 
+        { 
+            let nameLetter = ['c', 'l', 'a', 'r', 'i', 's', 's', 'a']; 
+            let surnameLetter = ['a', 'r', 'd', 'o', 'n'];
+            let nameList = new Array();
+            let surNameList = new Array();
+            let fullNameList = new Array();
+
+            for (let i = 0; i < nameLetter.length; i++)
+                {
+                    nameList.push(nameLetter[i]);
+                }
+
+            for (let i = 0; i < surnameLetter.length; i++)
+            {
+                surNameList.push(surnameLetter[i]);
+            }
+
+            fullNameList.push(...nameList);
+            fullNameList.push(" ");
+            fullNameList.push(...surNameList);
+
+            document.getElementById("demo").innerHTML += fullNameList;
+        }
+
+    </script>
+
+</body>
+</html>
+
+<!--
+- Crea otra lista (array en Javascript) con tu apellido donde cada posición corresponderá a una letra.
+- Fusiona las dos listas en una sola. Además, añade una posición vacía entre la primera y la segunda.
+  Es decir, partimos de la lista (array) name y surname y al acabar  solo tendremos  una lista (array)  que se llamará fullname. 
+  Full Name: ['N','A','M','E','','S','U','R','N','A','M','E']
+
+  OTRA MANERA:
+            let nameLetter = ['c', 'l', 'a', 'r', 'i', 's', 's', 'a']; 
+            let surnameLetter = ['a', 'r', 'd', 'o', 'n'];
+            let fullNameLetter = ['c', 'l', 'a', 'r', 'i', 's', 's', 'a', 'a', 'r', 'd', 'o', 'n'];
+            var nameList = new Array();
+
+            for (let i = 0; i < fullNameLetter.length; i++)
+                {
+                    nameList.push(fullNameLetter[i]);
+                }
+
+            for (letter in nameList)
+            {
+                document.getElementById("demo").innerHTML += letter;
+            }
+
+WEB DONDE ME INDICA COMO COMBINAR ARRAYS IN JAVASCRIPT:
+https://dzone.com/articles/ways-to-combine-arrays-in-javascript
+  
+-->

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 1 Repeated Letters</title>
+</head>
+<body>
+
+    <h1>PHASE 1 - Repeated Letters</h1>
+
+    <input type="button" onClick="repeat()" Value="Check Clarissa's name letters"/>
+    <p id="demo"> </p>
+
+    <script>
+        
+function repeat() 
+        { 
+            let nameLetter = ['c', 'l', 'a', 'r', 'i', 's', 's', 'a'];
+
+                for (let i = 0; i < nameLetter.length; i++)
+                {
+                    document.getElementById("demo").innerHTML += nameLetter[i];
+                }
+        }
+
+    </script>
+</body>
+</html>
+
+<!--
+ - Crea un array de caracteres (char[]) con tu nombre donde cada posición corresponderá a una letra.
+ - Haz un bucle que recorra el array y muestre por consola cada una de las letras. 
+-->

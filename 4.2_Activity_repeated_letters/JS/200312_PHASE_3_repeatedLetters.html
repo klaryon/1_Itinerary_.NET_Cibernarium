@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 3 Repeated Letters</title>
+</head>
+<body>
+
+    <h1>PHASE 3 - Repeated Letters - amount of repeated letters</h1>
+
+    <input type="button" onClick="repeat()" Value="Check Clarissa's name letters"/>
+    <p id="demo"> </p>
+
+    <script>
+        
+function repeat() 
+        { 
+            let nameLetter = ['c', 'l', 'a', 'r', 'i', 's', 's', 'a'];
+            var nameList = new Array();
+
+                for (let i = 0; i < nameLetter.length; i++)
+                {
+                    nameList.push(nameLetter[i]);
+                }
+
+            var nameDicc = new Map();
+
+                for (item of nameList)
+                {
+                    if(!nameDicc.has(item))
+                {
+                    nameDicc.set(item, 1);
+                }
+                else
+                {
+                    nameDicc.set(item, (nameDicc.get(item)) + 1);
+                }
+                }
+                
+                for (item of nameDicc)
+                {
+                    document.getElementById("demo").innerHTML += (item + "<br>");
+                }       
+        }
+
+    </script>
+</body>
+</html>
+
+<!--
+Almacena en un Dictionary (Map en Javascript) tanto las letras de la lista como el número 
+de veces que aparecen y muestra toda la información
+
+información encontrada para hacer contador del value en un Map():
+https://stackoverflow.com/questions/53584369/javascript-map-increment-value
+-->
