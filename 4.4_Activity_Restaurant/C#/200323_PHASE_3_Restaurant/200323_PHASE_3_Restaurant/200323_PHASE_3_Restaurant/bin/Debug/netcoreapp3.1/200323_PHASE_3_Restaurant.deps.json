@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "200323_PHASE_3_Restaurant/1.0.0": {
+        "runtime": {
+          "200323_PHASE_3_Restaurant.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "200323_PHASE_3_Restaurant/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

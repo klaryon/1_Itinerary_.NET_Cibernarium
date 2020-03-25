@@ -1,0 +1,11 @@
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\obj\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.csprojAssemblyReference.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\obj\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.AssemblyInfoInputs.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\obj\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.AssemblyInfo.cs
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\bin\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.exe
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\bin\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.deps.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\bin\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.runtimeconfig.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\bin\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.runtimeconfig.dev.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\bin\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\bin\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.pdb
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\obj\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\200323_Activity_Restaurant\C#\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\200323_PHASE_4_Restaurant\obj\Debug\netcoreapp3.1\200323_PHASE_4_Restaurant.pdb

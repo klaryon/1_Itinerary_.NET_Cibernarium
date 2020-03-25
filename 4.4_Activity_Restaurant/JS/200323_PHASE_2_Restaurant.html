@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 2 - Restaurant</title>
+</head>
+<body>
+    
+    <h1>PHASE 2 - Restaurant</h1>
+
+    <input type="button" onClick="enterMenu()" Value="Add menu + price"/>
+    <p id="demo"> </p>
+
+    <input type="button" onClick="enterOrder()" Value="Choose menu"/>
+    <p id="demo2"> </p>
+
+    <script>
+        
+function enterMenu()
+        { 
+            let contador = 1;
+            let contador2 = 1; 
+            let contador3 = 1;
+            let qtMenus = 5;
+            let arrayMenu = new Array();
+            let arrayPriceMenu = new Array();
+
+            //Enter menu + menu price and saves them in each corresponding array.
+
+            for (let i = 0; i < qtMenus; i++)
+            {
+                let menuEntered = prompt("Enter menu " + contador++ + " :");
+                arrayMenu[i] = (menuEntered).toLowerCase();
+                arrayPriceMenu[i] = parseInt(prompt("Enter price menu " + contador2++ + " :"));
+            }
+
+            //Prints menu + menu price in euros. 
+
+            for (let i = 0; i < qtMenus; i++)
+            {
+                document.getElementById("demo").innerHTML += "Menu 1: " + arrayMenu[i] + " , " + arrayPriceMenu[i] + " euros <br>";
+            }    
+        }
+
+        function enterOrder() 
+        {
+            let euro500 = 500;
+            let euro200 = 200;
+            let euro100 = 100;
+            let euro50 = 50;
+            let euro20 = 20;
+            let euro10 = 10;
+            let euro5 = 5;
+            let euro2 = 2;
+            let euro1 = 1;
+            let totalPrice = 0;
+            let menuEatList = new Array();
+            let newOrder = 1;
+
+            //Asks which menu to order and saves it to a new List. It also asks if you want to keep ordering or not. 
+
+            while (newOrder == 1)
+            {
+                var menuNameEat = prompt("Write the menu's name you want to eat: ");
+                menuEatList.push((menuNameEat).toLowerCase());
+
+                newOrder = parseInt(prompt("Do you want to continue ordering? write 1 if yes or 2 if not: "));
+            }
+
+            document.getElementById("demo2").innerHTML = menuEatList;
+        }
+
+    </script>
+
+</body>
+</html>
+
+<!-- 
+ - Con un bucle  for llenaremos  los dos arrays  anteriormente creados. Añadiremos el nombre del plato y despues el precio.
+ - Una vez llenos los dos arrays tenemos que mostrarlos y preguntar que se quiere para comer, guardaremos la información en 
+   una List usando bucle while.
+ - Tendremos que preguntar si se quiere seguir pidiendo comida. Podeis usar  el sistema (1:Si, 2:No), por tanto tendréis
+   que crear otra variable int para guardar esa información.
+ -->
+
+
+ 

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHASE 4 - Restaurant</title>
+</head>
+<body>
+
+    <h1>PHASE 4 - Restaurant</h1>
+
+    <input type="button" onClick="enterMenu()" Value="Add menu + price"/>
+    <p id="demo"> </p>
+
+    <script>
+        
+function enterMenu()
+        { 
+            let euro500 = 500;
+            let euro200 = 200;
+            let euro100 = 100;
+            let euro50 = 50;
+            let euro20 = 20;
+            let euro10 = 10;
+            let euro5 = 5;
+            let euro2 = 2;
+            let euro1 = 1;
+            let contador = 1;
+            let contador2 = 1; 
+            let contador3 = 1;
+            let qtMenus = 5;
+            let totalPrice = 0;
+            let arrayMenu = new Array();
+            let arrayPriceMenu = new Array();
+
+            //Enter menu + menu price and saves them in each corresponding array.
+
+            for (let i = 0; i < qtMenus; i++)
+            {
+                let menuEntered = prompt("Enter menu " + contador++ + " :");
+                arrayMenu[i] = (menuEntered).toLowerCase();
+                arrayPriceMenu[i] = parseInt(prompt("Enter price menu " + contador2++ + " :"));
+                console.log(arrayMenu[i] + " = " + arrayPriceMenu[i]);
+            }
+
+            //Prints menu + menu price in euros. 
+
+            for (let i = 0; i < qtMenus; i++)
+            {
+                alert("Menu " + contador3++ +  " : " + arrayMenu[i] + " , " + arrayPriceMenu[i] + " euros");
+            }    
+        
+            //Asks which menu to order and saves it to a new List. It also asks if you want to keep ordering or not. 
+
+            let menuEatList = new Array();
+            let newOrder = 1;
+
+            while (newOrder == 1)
+            {
+                var menuNameEat = prompt("Write the menu's name you want to eat: ");
+                menuEatList.push((menuNameEat).toLowerCase());
+                console.log(menuNameEat);
+
+                newOrder = parseInt(prompt("Do you want to continue ordering? write 1 if yes or 2 if not: "));
+            }
+
+            //Compares the whole menu list with the menus chosen to buy and adds total price to pay.
+
+            let menuExist = false;
+
+            for (item of menuEatList)
+            {
+                for(var i = 0; i < qtMenus; i++) 
+                {
+                    if (item == arrayMenu[i])
+                    {
+                        totalPrice += arrayPriceMenu[i];
+                        menuExist = true;
+                    } 
+                }
+
+                if (!menuExist) 
+                { 
+                    prompt("One of the menus you've entered doesn't exist, we will remove it from the order. Click ok to continue.");
+                }
+                menuExist = false;
+            }
+
+            console.log("Your total price is " + totalPrice + " euros");   
+
+            //Indicate the amount of change to give back (indicate both bills and coins (just 1 or 2 euro). 
+
+            let moneyExist = false;
+            let arrayMoney = new Array(9);
+
+            arrayMoney[0] = euro500;
+            arrayMoney[1] = euro200;
+            arrayMoney[2] = euro100;
+            arrayMoney[3] = euro50;
+            arrayMoney[4] = euro20;
+            arrayMoney[5] = euro10;
+            arrayMoney[6] = euro5;
+            arrayMoney[7] = euro2;
+            arrayMoney[8] = euro1;
+
+            for (let i = 0; i < arrayMoney.length; i++)
+            {
+                if ((totalPrice / arrayMoney[i]) > 0)
+                {
+                    moneyExist = true;
+                }
+
+                if (moneyExist)
+                {
+                    let divMoney = Math.floor(totalPrice / arrayMoney[i]);
+
+                    if (arrayMoney[i] > 2)
+                    {
+                        console.log("Your payment is " + divMoney + " bill(s) of " + arrayMoney[i] + " euros");
+                    }
+                    else
+                    {
+                        console.log("Your payment is " + divMoney + " coin(s) of " + arrayMoney[i] + " euros");
+                    }
+
+                    let modulusMoney = (totalPrice % arrayMoney[i]);
+                    totalPrice = modulusMoney;
+                }
+            }
+        }
+
+    </script>
+
+</body>
+</html>
+
+<!--
+    Una vez sabemos el precio final de nuestra comida tendremos que mostrar  cuantos billetes
+    necesitará el cliente para pagar. En el caso  que el precio no sea múltiplo de 5 por ejemplo 27
+    lo podéis hacer de dos maneras. Podéis calcular cuántos billetes necesitaría para pagar 30 euros y el cambio  
+    en monedas que se le daría o bien calcular cuántos billetes necesitaría para pagar 25 euros y cuántas monedas
+    necesitaría de 1 a 2 euros. 
+-->
