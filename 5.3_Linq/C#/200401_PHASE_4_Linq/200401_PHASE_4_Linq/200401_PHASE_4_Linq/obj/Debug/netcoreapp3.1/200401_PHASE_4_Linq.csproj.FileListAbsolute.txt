@@ -1,0 +1,11 @@
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\bin\Debug\netcoreapp3.1\200401_PHASE_4_Linq.exe
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\bin\Debug\netcoreapp3.1\200401_PHASE_4_Linq.deps.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\bin\Debug\netcoreapp3.1\200401_PHASE_4_Linq.runtimeconfig.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\bin\Debug\netcoreapp3.1\200401_PHASE_4_Linq.runtimeconfig.dev.json
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\bin\Debug\netcoreapp3.1\200401_PHASE_4_Linq.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\bin\Debug\netcoreapp3.1\200401_PHASE_4_Linq.pdb
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\obj\Debug\netcoreapp3.1\200401_PHASE_4_Linq.csprojAssemblyReference.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\obj\Debug\netcoreapp3.1\200401_PHASE_4_Linq.AssemblyInfoInputs.cache
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\obj\Debug\netcoreapp3.1\200401_PHASE_4_Linq.AssemblyInfo.cs
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\obj\Debug\netcoreapp3.1\200401_PHASE_4_Linq.dll
+D:\01. CLARISSA\21. IT ACADEMY\02. .NET\03. Modulo Básico\200401_Linq\C#\200401_PHASE_4_Linq\200401_PHASE_4_Linq\200401_PHASE_4_Linq\obj\Debug\netcoreapp3.1\200401_PHASE_4_Linq.pdb

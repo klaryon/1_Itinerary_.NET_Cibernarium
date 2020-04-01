@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "200401_PHASE_3_Linq/1.0.0": {
+        "runtime": {
+          "200401_PHASE_3_Linq.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "200401_PHASE_3_Linq/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
